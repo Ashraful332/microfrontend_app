@@ -1,4 +1,4 @@
-
+/* home page */
 .app-main{
   display: flex;
   flex-direction: column;
@@ -13,3 +13,22 @@
   color: #113cc7;
 }
 
+/* moon page */
+.moon-main{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.image-moon{
+  height: 100vh;
+}
+.image-moon img{
+  height: 99.6vh;
+}
+
+.moon-div2 p{
+  width: 60vw ;
+  margin-top: 20px;
+  font-size: 14px;
+}
